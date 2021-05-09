@@ -6,14 +6,16 @@ weight = 50
 background = "light" # can influence the text color
 particles = true
 
-title = "River Plate Wines"
+title = "."
 subtitle = ""
 
 [header]
   image = "header.jpg"
+  width = "1284px" # optional - will default to image width
+  height = "404px" # optional - will default to image height
 
 [asset]
-  image = "logo.svg"
+  image = ""
   width = "500px" # optional - will default to image width
-  #height = "150px" # optional - will default to image height
+  height = "404px" # optional - will default to image height
 +++

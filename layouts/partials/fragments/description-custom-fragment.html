@@ -1,7 +1,7 @@
 {{- $fragment := .self.Params -}}
 {{- $name := strings.TrimSuffix ".md" (replace .self.Name "/index.md" "") -}}
 {{- $bg := $fragment.background | default "secondary" }}
-<!-- <section id="{{ $name }}">
+<section id="{{ $name }}">
   <div class="overlay container-fluid
     {{- printf " bg-%s" $bg -}}
   ">
@@ -14,14 +14,14 @@
           {{- printf " text-%s" "dark" -}}
         {{- end -}}
       ">
-        <h4>Custom fragments</h4>
+        <h4>River Plate Wines Distribution Company</h4>
       </div>
     </div>
     <div class="row">
       <div class="col text-center">
-        <h5>Introducing custom fragments</h5>
-        <p>This is a custom fragments. Dynamically loaded since there was a call for it in the index content directory.</p>
+        <h5><!-- Put some inner desc. --></h5>
+        <p><!-- Put some outer desc. --></p>
       </div>
     </div>
   </div>
-</section> -->
+</section>
