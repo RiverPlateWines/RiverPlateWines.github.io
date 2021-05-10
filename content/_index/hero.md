@@ -11,7 +11,7 @@ title = ""
 subtitle = ""
 
 [header]
-  image = "header.jpg"
+  image = "header.png"
 
 #[asset]
 #  image = "title_logo_transparent.png"
